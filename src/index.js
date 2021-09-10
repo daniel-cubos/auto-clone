@@ -1,15 +1,10 @@
+
 const shell = require('shelljs');
 
 
 const repos = [""];
 
-// Only Users Linux
-// shell.exec('git config --global user.name ');
-// shell.exec('git config --global user.email ');
-// shell.exec('git config --global user.password ');
-
 shell.cd('challanges');
-
 
 for (const repo of repos) {
 
@@ -21,7 +16,12 @@ for (const repo of repos) {
         shell.mkdir(folderName);
 
         shell.cd(`${folderName}`);
-        shell.exec(`git clone ${repo}`)
+
+        shell.exec(`git clone ${repo}`);
+
+        shell.cd(`${repoName}`);
+        shell.cp('-R', '../../../src/cypressfiles', 'cypress');
+
     } catch (error) {
         continue;
     } finally {
