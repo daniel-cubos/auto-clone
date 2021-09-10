@@ -1,12 +1,10 @@
+const repositories = require('./repositories');
 
 const shell = require('shelljs');
 
-
-const repos = [""];
-
 shell.cd('challanges');
 
-for (const repo of repos) {
+for (const repo of repositories) {
 
     try {
         const splitedNames = repo.split(':')[1].split('/');
@@ -21,6 +19,8 @@ for (const repo of repos) {
 
         shell.cd(`${repoName}`);
         shell.cp('-R', '../../../src/cypressfiles', 'cypress');
+
+        shell.exec('npm install');
 
     } catch (error) {
         continue;
