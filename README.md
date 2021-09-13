@@ -3,5 +3,5 @@
 
 ### to runing project
 
-execute `node shell.js`
+execute `yarn running`
 
