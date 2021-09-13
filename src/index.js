@@ -21,6 +21,7 @@ for (const repo of repositories) {
         shell.cp('-R', '../../../src/cypressfiles', 'cypress');
 
         shell.exec('npm install');
+        shell.cd('..');
 
     } catch (error) {
         continue;
