@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2021-10-07T03:00:00.000Z",
+    "week_day": "quinta",
+    "description": "Trabalho para empresa.",
+    "value": 15500,
+    "category": "Salário",
+    "type": "credit",
+    "id": 1
+  },
+  {
+    "date": "2021-10-07T03:00:00.000Z",
+    "week_day": "quinta",
+    "description": "Compras no mercado",
+    "value": 1500,
+    "category": "Compras",
+    "type": "debit",
+    "id": 2
+  }
+]

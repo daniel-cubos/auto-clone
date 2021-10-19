@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2021-12-10T03:00:00.000Z",
+    "week_day": "sexta",
+    "description": "Compra de um terreno",
+    "value": 152500,
+    "category": "Compras",
+    "type": "debit",
+    "id": 2
+  }
+]

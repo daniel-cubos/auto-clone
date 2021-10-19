@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2021-12-15T03:00:00.000Z",
+    "week_day": "quarta",
+    "description": "Venda de um terreno",
+    "value": 352500,
+    "category": "Venda",
+    "type": "credit",
+    "id": 2
+  }
+]

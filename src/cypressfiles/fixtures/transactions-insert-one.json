@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2021-10-11T03:00:00.000Z",
+    "week_day": "segunda",
+    "description": "Compra de um veículo",
+    "value": 32500,
+    "category": "Compras",
+    "type": "debit",
+    "id": 1
+  }
+]

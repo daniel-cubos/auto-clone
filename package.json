@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "running": "node src/index.js"
+    "go": "node src/index.js"
   },
   "dependencies": {
     "shelljs": "^0.8.4"

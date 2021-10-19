@@ -2,7 +2,7 @@ const repositories = require('./repositories');
 
 const shell = require('shelljs');
 
-shell.cd('challanges');
+shell.cd('desafios');
 
 for (const repo of repositories) {
 
